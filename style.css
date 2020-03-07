@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+}
+#header{
+    background-color: coral;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+#banner{
+    background-color: grey;
+    height: 400px;
+    width: 100%;
+}
+#circle-container{
+    width: 88%;
+    margin: 75px auto;
+}
+#grid-container::after,
+#circle-container::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    background-color:indianred;
+    -moz-border-radius:200px;
+    border-radius: 200px;
+    float: left;
+    margin-left: 93px;
+}
+#grid-container{
+   
+    width: 88%;
+    margin: 0 auto;
+}
+.box{
+    height: 150px;
+    width: 348px;
+    background-color: lightseagreen;
+    float: left;
+    margin: 10px;
+}
+#footer{
+    height: 100px;
+    background-color: orangered;
+    margin-top: 90px;
+}
